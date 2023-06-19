@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="index.css">
+	<link
+	  href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap"
+	  rel="stylesheet"
+	/>
+	<title>Wiki API</title>
+  </head>
+  <body>
+	<img
+	  src="ressources/wiki-logo.png"
+	  alt="wikipedia-logo"
+	  class="wiki-logo"
+	/>
+	<h1>Recherche <span>wikipedia</span></h1>
+	<form>
+	  <input
+		type="text"
+		class="search-input"
+		placeholder="Recherchez un terme"
+	  />
+
+	  <p class="error-msg"></p>
+
+	  <div class="results-display">
+		
+	  </div>
+
+	  <div class="loader">
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+		  <span class="dot"></span>
+	  </div>
+	</form>
+	<script src="app.js"></script>
+  </body>
+</html>
